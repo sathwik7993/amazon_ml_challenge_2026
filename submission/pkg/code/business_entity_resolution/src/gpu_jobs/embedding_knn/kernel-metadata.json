@@ -1,0 +1,17 @@
+{
+ "id": "sathwikchappala/amlc26-embed-knn",
+ "title": "amlc26-embed-knn",
+ "code_file": "embedding_knn_kernel.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": true,
+ "machine_shape": "NvidiaTeslaT4",
+ "dataset_sources": [
+  "sathwikchappala/amlc26-er-raw",
+  "sathwikchappala/amlc26-er-splits"
+ ],
+ "competition_sources": [],
+ "kernel_sources": []
+}

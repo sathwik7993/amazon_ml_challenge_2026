@@ -1,0 +1,17 @@
+{
+ "id": "sathwikchappala/amlc26-ce-hard-large",
+ "title": "amlc26-ce-hard-large",
+ "code_file": "ce_kernel.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": true,
+ "machine_shape": "NvidiaTeslaT4",
+ "dataset_sources": [
+  "sathwikchappala/amlc26-ce-data",
+  "sathwikchappala/amlc26-ce-hard"
+ ],
+ "competition_sources": [],
+ "kernel_sources": []
+}

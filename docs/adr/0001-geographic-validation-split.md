@@ -1,0 +1,3 @@
+# Validate on a geographic holdout, not a random sample
+
+We have no test labels, so the local score must predict the leaderboard. A random sample of Reference Records leaves the Mentions of every other Reference Record in the pool, and those Mentions act as false Distractors that never occur in test. A scaled-down random replica fixes that but makes the data ten times sparser, so Blocking and near-duplicate neighbours look easier than on test. We therefore hold out whole states or regions per country, with all their Reference Records and Mentions, which keeps real density and real look-alike neighbours.

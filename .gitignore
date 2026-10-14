@@ -1,0 +1,72 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Large Data & Datasets
+data/
+student_resource/dataset/
+kaggle/ce_data/*.parquet
+kaggle/ce_hard_data/*.parquet
+kaggle/ds_raw/
+kaggle/ds_splits/
+*.parquet
+
+# Data files (keep tiny unit test fixtures)
+*.tsv
+*.csv
+!code/**/tests/data/**
+!submission/**/tests/data/**
+
+# Experiment Runs, Checkpoints, Embeddings & Large Outputs
+runs/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+
+# Submissions & Archives
+submission/*.zip
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Media & Videos
+*.mp4
+*.avi
+*.mov
+
+# OS & IDE Metadata
+__MACOSX/
+.DS_Store
+Thumbs.db
+.claude/
+.idea/
+.vscode/
+
+# Python Cache & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
