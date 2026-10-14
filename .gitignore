@@ -32,13 +32,13 @@ runs/
 *.h5
 
 # Submissions & Archives
-submission/*.zip
 *.zip
 *.tar
 *.tar.gz
 *.tgz
 *.7z
 *.rar
+!submission/Slytherin_submission.zip
 
 # Media & Videos
 *.mp4
